@@ -1,4 +1,9 @@
 go 1.21.3
 
-use ./01hello
-use ./02variables
+// use ./01hello
+// use ./02variables
+// use ./03userInput
+// use ./04conversion
+// use ./05mytime
+// use ./07pointers
+use ./08arrays
