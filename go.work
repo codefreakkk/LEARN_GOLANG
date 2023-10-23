@@ -6,4 +6,5 @@ go 1.21.3
 // use ./04conversion
 // use ./05mytime
 // use ./07pointers
-use ./08arrays
+// use ./08arrays
+use ./09Slices
