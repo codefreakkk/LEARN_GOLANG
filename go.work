@@ -13,4 +13,6 @@ go 1.21.3
 // use ./12loops
 // use ./13functions
 // use ./14structs
-use ./15methods
+// use ./15methods
+// use ./16defer
+use ./17files
