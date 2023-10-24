@@ -10,4 +10,5 @@ go 1.21.3
 // use ./09Slices
 // use ./10maps
 // use ./11controlflowstmt
-use ./12loops
+// use ./12loops
+use ./13functions

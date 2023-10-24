@@ -18,7 +18,7 @@ func main() {
 	// for each loop
 	for _, value := range nums {
 
-		// case for go stmt
+		// if case for go stmt
 		if value == 2 {
 			goto label
 		}
