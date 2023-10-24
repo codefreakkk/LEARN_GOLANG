@@ -14,6 +14,10 @@ func main() {
 	add, msg := _2ReturnValue(1, 2)
 	fmt.Printf("Addition is %d, msg is %s \n", add, msg)
 
+	// getting array from function
+	nums := getArray()
+	fmt.Println(nums[1])
+
 	// Anonymous function
 	func() {
 		fmt.Println("Anonymous function called")
@@ -49,4 +53,8 @@ func proAdder(nums ...int) int {
 
 func _2ReturnValue(num1 int, num2 int) (int, string) {
 	return num1 + num2, "Hello bro"
+}
+
+func getArray() []int {
+	return []int{1, 2, 3}
 }
