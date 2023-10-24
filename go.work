@@ -7,4 +7,7 @@ go 1.21.3
 // use ./05mytime
 // use ./07pointers
 // use ./08arrays
-use ./09Slices
+// use ./09Slices
+// use ./10maps
+// use ./11controlflowstmt
+use ./12loops
