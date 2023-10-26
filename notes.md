@@ -2,5 +2,5 @@
 
 1. Get char from perticular index
     
-    str := "hArsh sachin said"
+    str := "harsh sachin said"
 	fmt.Println(string(str[1]))
