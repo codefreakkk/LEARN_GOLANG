@@ -1,4 +1,4 @@
-# Golang Repository.
+# Golang Repository
 
 
 * SOME GO COMMANDS
