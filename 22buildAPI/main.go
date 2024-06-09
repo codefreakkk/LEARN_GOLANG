@@ -81,6 +81,11 @@ func getOneCourse(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
+func getCourseById(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(courses)
+}
+
 func addOneCourse(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
